@@ -5,7 +5,7 @@ const Foodlist = (props) => {
                  <div className="content">
                     <img src={props.img2} alt="" />
                     <h3>{props.title}</h3>
-                    {/* <p>{props.content}</p> */}
+                 
                     <ol>
                         {props.content.map((each)=>(
                             <li>{each}</li>
